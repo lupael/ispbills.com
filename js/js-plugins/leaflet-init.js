@@ -9,8 +9,8 @@ CRUMINA.maps = {
 			config: {
 				id: 'map',
 				map: {
-					center: new L.LatLng(22.57783, 88.43814),
-					zoom: 13,
+					center: new L.LatLng(38.897663, -77.036575),
+					zoom: 12,
 					maxZoom: 18,
 					layers: new L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
 						maxZoom: 18,
@@ -25,7 +25,7 @@ CRUMINA.maps = {
 			},
 			markers: [
 				{
-					coords: [22.57783, 88.43814],
+					coords: [38.897663, -77.036575],
 					icon: 'marker-google.png'
 				}
 			]
@@ -34,8 +34,8 @@ CRUMINA.maps = {
 			config: {
 				id: 'map1',
 				map: {
-					center: new L.LatLng(19.0210456,72.829972),
-					zoom: 13,
+					center: new L.LatLng(-37.613611, 144.963056),
+					zoom: 12,
 					maxZoom: 18,
 					layers: new L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
 						maxZoom: 18,
@@ -54,7 +54,7 @@ CRUMINA.maps = {
 
 			markers: [
 				{
-					coords: [19.0210456,72.829972],
+					coords: [-37.613611, 144.963056],
 					icon: 'marker-google.png'
 				}
 			]
@@ -64,7 +64,7 @@ CRUMINA.maps = {
 			config: {
 				id: 'map2',
 				map: {
-					center: new L.LatLng(28.5532737,77.2383123),
+					center: new L.LatLng(52.518589, 13.375520),
 					zoom: 12,
 					maxZoom: 18,
 					layers: new L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
@@ -83,7 +83,7 @@ CRUMINA.maps = {
 			},
 			markers: [
 				{
-					coords: [28.5532737,77.2383123],
+					coords: [52.518589, 13.375520],
 					icon: 'marker-google.png'
 				}
 			]
@@ -93,7 +93,7 @@ CRUMINA.maps = {
 			config : {
 				id     : 'map3',
 				map    : {
-					center : new L.LatLng(25.6068005,85.1380012),
+					center : new L.LatLng(47.364970, 8.524340),
 					zoom   : 12,
 					maxZoom: 18,
 					layers : new L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
@@ -112,7 +112,7 @@ CRUMINA.maps = {
 			},
 			markers: [
 				{
-					coords: [25.6068005,85.1380012],
+					coords: [47.364970, 8.524340],
 					icon  : 'marker-google.png'
 				}
 			]
@@ -122,7 +122,7 @@ CRUMINA.maps = {
 			config : {
 				id     : 'map4',
 				map    : {
-					center : new L.LatLng(23.8288742,91.2804738),
+					center : new L.LatLng(50.447281, 30.536872),
 					zoom   : 12,
 					maxZoom: 18,
 					layers : new L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
@@ -141,7 +141,7 @@ CRUMINA.maps = {
 			},
 			markers: [
 				{
-					coords: [23.8288742,91.2804738],
+					coords: [50.447281, 30.536872],
 					icon  : 'marker-google.png'
 				}
 			]
