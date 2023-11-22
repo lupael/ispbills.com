@@ -1,4 +1,4 @@
-<IfModule mod_rewrite.c>
+
   RewriteEngine On
   RewriteCond %{REQUEST_FILENAME} -f
   RewriteCond %{THE_REQUEST} /(.+)\.html [NC]
@@ -6,4 +6,3 @@
   RewriteRule ^index$ / [NC,R=301,L]
   RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}
 
-</IfModule>
